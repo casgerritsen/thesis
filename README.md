@@ -4,7 +4,7 @@ All the files used for the Thesis by Cas Gerritsen. This thesis addressed the fo
 
 The folder **main_pipeline** contains the key scripts, organized by the following steps:
 
--*sync_events.py* includes the code used to process the output from Daan’s application. The input is an IDF file with tracking data, and the output is a dataframe containing all actions with their associated features as columns.
+-*sync_events.py* includes the code used to process the input files. The input is an IDF file with tracking data, and the output is a dataframe containing all actions with their associated features as columns.
 
 -*actions_to_gamestates.ipynb* implements the left-to-right transformation, labels scoring and conceding actions, and creates the game states.
 
